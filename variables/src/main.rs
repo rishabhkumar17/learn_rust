@@ -18,6 +18,9 @@ fn main() {
         println!("The value of x in the inner scope is: {a}")
     }
 
-    println!("The value of x is: {a}")
+    println!("The value of x is: {a}");
+
+    let spaces = "  ";
+    let spaces = spaces.len();
 
 }
