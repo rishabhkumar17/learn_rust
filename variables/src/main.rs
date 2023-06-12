@@ -21,6 +21,14 @@ fn main() {
     println!("The value of x is: {a}");
 
     let spaces = "  ";
-    let spaces = spaces.len();
+    // let spaces = spaces.len();
+
+    let x = 2.0; // f64
+
+    let y: f32 = 3.0; // f32
+
+    let c = 'z';
+    let z: char = 'Z';
+    let heart_eyed_cat: char = '😻';
 
 }
