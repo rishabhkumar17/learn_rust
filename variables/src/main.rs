@@ -35,7 +35,7 @@ fn main() {
 
     let tup: (i32, f64, u8, char) = (700, 7.7, 7, 's');
 
-    let (x, y, z, w) = tup; // deconstructing
+    let (x, y, z, w, q) = tup; // deconstructing
 
     println!("The value of w is: {w}");
 
