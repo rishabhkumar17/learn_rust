@@ -31,4 +31,11 @@ fn main() {
     let z: char = 'Z';
     let heart_eyed_cat: char = '😻';
 
+    // The Tuple Type
+
+    let tup: (i32, f64, u8, char) = (700, 7.7, 7, 's');
+
+    let (x, y, z, w) = tup; // deconstructing
+
+    println!("The value of w is: {w}");
 }
