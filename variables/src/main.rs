@@ -38,4 +38,9 @@ fn main() {
     let (x, y, z, w) = tup; // deconstructing
 
     println!("The value of w is: {w}");
+
+    let seven_hundred = tup.0;
+    let s = tup.3;
+
+    println!("{s}");
 }
