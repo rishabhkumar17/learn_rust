@@ -69,10 +69,9 @@ fn main() {
         .trim()
         .parse()
         .expect("Index entered was not a number");
-
+        
     let element = a[index];
 
     println!("The value of the element at index {index} is: {element}");
-
 
 }
