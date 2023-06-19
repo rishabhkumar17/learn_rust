@@ -2,7 +2,14 @@ fn main() {
     println!("Hello, world!");
 
     // another_function(5);
-    print_labeled_measurement(17, 'm')
+    print_labeled_measurement(17, 'm');
+
+    let y = {
+        let x = 3;
+        x + 1
+    };
+
+    println!("The value of y is: {y}");
 }
 
 // fn another_function(x: i32) {
