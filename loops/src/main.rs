@@ -63,5 +63,5 @@ fn main() {
         println!("the value is: {}", a[index]);
 
         index += 1;
-    }
+    } // bad approach
 }
