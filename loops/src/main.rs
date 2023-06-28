@@ -64,4 +64,8 @@ fn main() {
 
         index += 1;
     } // bad approach
+
+    for element in a {
+        println!("the value is: {element}");
+    } // Better Approach
 }
