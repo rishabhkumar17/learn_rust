@@ -68,4 +68,10 @@ fn main() {
     for element in a {
         println!("the value is: {element}");
     } // Better Approach
+
+
+    for number in (1..4).rev() { // reverse
+        println!("{number}!");
+    }
+    println!("LIFTOFF!!!");
 }
