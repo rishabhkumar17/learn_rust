@@ -70,7 +70,7 @@ fn main() {
     } // Better Approach
 
 
-    for number in (1..4).rev() { // reverse
+    for number in (1..4).rev() { // reverse method rev()
         println!("{number}!");
     }
     println!("LIFTOFF!!!");
