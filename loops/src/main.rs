@@ -1,9 +1,9 @@
 fn main() {
     // Repeating Code with loop
 
-    // loop {
-    //     println!("again!");
-    // }
+    loop {
+        println!("again!");
+    }
 
     // Returning Values from Loops
 
