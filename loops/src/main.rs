@@ -76,5 +76,4 @@ fn main() {
     println!("LIFTOFF!!!");
 
     //backlogs - 7 days ;)
-    
 }
